@@ -4,7 +4,6 @@ extern long_mode_start
 section .text
 bits 32
 
-; mov hexadecimal representation of "REYZRS MOM" into video mem region 
 start:
     mov esp, stack_top
 
